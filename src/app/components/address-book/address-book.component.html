@@ -1,0 +1,14 @@
+<div id='address-book-container'>
+  <h3>Current Contacts</h3>
+
+  <ul>
+    <li *ngFor='let friend of friends; let i = index'>
+        <span>#{{ i + 1 }}</span> 
+        <a [routerLink]="['/details', friend.id]">{{ friend.name }}</a>
+    </li>
+  </ul>
+</div>
+
+<nav>
+	<a [routerLink]="['/add']">Add New Contact</a>
+</nav>

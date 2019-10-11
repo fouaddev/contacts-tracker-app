@@ -1,0 +1,30 @@
+#container {
+  
+  width: auto;
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+
+    text-align: center;
+
+    a {
+      
+      text-decoration: none;
+      color: rgb(50, 100, 150);
+    
+    }
+
+    a:hover {
+     
+      color: inherit;
+      font-size: 1.2rem;
+    
+    }
+  }
+}
